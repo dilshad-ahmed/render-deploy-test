@@ -1,4 +1,5 @@
-const express = require("express");
+// const express = require("express");
+import express from "express";
 // const userRouter = require("./routes/userRoute.js");
 
 const app = express();
@@ -12,4 +13,4 @@ app.get("/test", (req, res, next) => {
   });
 });
 
-module.exports = app;
+export default app;
